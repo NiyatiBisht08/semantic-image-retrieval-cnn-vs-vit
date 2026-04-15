@@ -1,6 +1,6 @@
 # VisionSearch: Semantic Image Retrieval using CNN vs Transformers
 
-## 🚀 Overview
+## Overview
 This project implements a semantic image retrieval system using deep learning.
 
 It compares CNN-based embeddings with Vision Transformer (ViT) embeddings to retrieve visually and semantically similar images from the Caltech101 dataset.
@@ -9,7 +9,7 @@ Unlike traditional search methods, this system retrieves images based on visual 
 
 ---
 
-## 🧠 Key Idea
+## Key Idea
 Instead of relying on labels, images are converted into feature embeddings.
 
 - Similar images → similar embeddings  
@@ -21,7 +21,7 @@ CNN captures **local patterns (textures, edges)**, while Vision Transformers cap
 
 ---
 
-## 📂 Dataset: Caltech 101
+## Dataset: Caltech 101
 
 The project uses the Caltech101 dataset, a widely used benchmark in computer vision.
 
@@ -32,26 +32,26 @@ The project uses the Caltech101 dataset, a widely used benchmark in computer vis
 This dataset is ideal for evaluating semantic retrieval because of its diverse categories and high variability.
 
 ---
-## 🏗️ Pipeline
+## Pipeline
 
 ![Pipeline](Pipeline_Semantic.drawio.png)
 
 ---
-## 🔍 Models Used
+## Models Used
 
-### 🧩 CNN-based Feature Extractor
+### CNN-based Feature Extractor
 - Pretrained convolutional neural network  
 - Captures spatial and local features  
 - Strong baseline for image tasks  
 
-### 🔗 Vision Transformer (ViT)
+### Vision Transformer (ViT)
 - Splits images into patches  
 - Uses self-attention to capture global context  
 - Better at understanding semantic relationships  
 
 ---
 
-## 📊 Results & Observations
+## Results & Observations
 
 - CNN retrieves images based on **textures and visual patterns**  
 - ViT retrieves images based on **semantic meaning**  
@@ -60,7 +60,7 @@ This dataset is ideal for evaluating semantic retrieval because of its diverse c
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python  
 - PyTorch  
@@ -70,7 +70,7 @@ This dataset is ideal for evaluating semantic retrieval because of its diverse c
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/NiyatiBisht08/visionsearch-cnn-vs-vit
